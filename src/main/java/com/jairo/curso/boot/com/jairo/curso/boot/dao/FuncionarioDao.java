@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface FuncionarioDao {
 
-    void save(Funcionario departamento);
+    void save(Funcionario funcionario);
 
-    void update(Funcionario departamento);
+    void update(Funcionario funcionario);
 
     void delete(Long id);
 
