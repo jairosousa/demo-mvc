@@ -29,4 +29,11 @@ public class Departamento extends AbstractEntity<Long> {
     public void setCargoList(List<Cargo> cargos) {
         this.cargos = cargos;
     }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
 }
